@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 131 - Dynamic Web Fundamentals - Brayden Grant</title>
+    <meta name="description" content="Home page">
+    <meta name="Author" content="Brayden Grant">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;1,100&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>WDD 131: Dynamic Web Fundamentals - Brayden J. Grant</h1>
+        <nav>
+            <ul>
+                <li><a href="https://www.linkedin.com/in/brayden-grant-a1aab3299/">LinkedIn</a></li>
+                <li><a href="https://byui.instructure.com/">I-Learn</a></li>
+                <li><a
+                        href="https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/88?lang=eng&id=p80#p80">Scripture</a>
+                </li>
+                <li><a href="#">Final Project</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="card">
+            <h2>About Me</h2>
+            <p>My name is Brayden Grant, I currently live in Herriman Utah with my parents. I am currently studying Web
+                and Computer Programming to become a data administrator. I love spending time with my family when I can.
+            </p>
+            <img src="images/profile.jpg" alt="Profile Picture">
+        </section>
+
+        <section class="card">
+            <h2>Utah, USA</h2>
+            <p>Utah is a state in the western United States. It's the central headquarters of the Church of Jesus Christ
+                of Latter-day Saints. It's a great spot for tourist to come during the winter to ski or snowboard in the
+                mountains. During the summers people can enjoy camping, hiking, river rafting and lots more.</p>
+            <img src="images/utah.webp" alt="Utah landscape">
+        </section>
+
+        <section class="card">
+            <h2>Web Dev Resources</h2>
+            <ul>
+                <li><a href="https://dev.to">Dev.to Community</a></li>
+                <li><a href="https://css-tricks.com">CSS Tricks</a></li>
+                <li><a href="https://w3schools.com">W3 Schools</a></li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>@<span id="currentyear"></span> Brayden Grant - Utah</p>
+        <p id="lastModified"></p>
+    </footer>
+
+    <script src="scripts/getdate.js" defer></script>
+</body>
+
+</html>

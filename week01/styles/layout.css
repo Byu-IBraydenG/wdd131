@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-template-columns: 1fr;
+    height: 100vh;
+}
+
+header, footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Navigation Styles*/
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 1px;
+    margin: 0;
+    background-color: #000;
+}
+
+nav ul li {
+    margin: 0 4rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Main and Aside layout using grid*/
+main {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+.main-content {
+    background-color: #ccc;
+    padding: 20px;
+}
+
+.sidebar {
+    background-color: white;
+    padding: 20px;
+}
+
+/* Footer Styles*/
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
