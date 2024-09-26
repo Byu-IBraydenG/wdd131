@@ -1,12 +1,20 @@
-const currentYear = new Date().getFullYear();
-document.getElementById('currentYear').textContent = currentYear;
+function displayCurrentYear() {
+    const currentYear = new Date().getFullYear();
+    document.getElementById("currentYear").textContent = currentYear;
+}
 
-const hamburger = document.querySelector('.hamburger');
-const navMenu = document.querySelector('nav ul');
+function displayLasModifiedDate() {
+    const lastModified = document.lastModified;
+    document.getElementById("lastModified").textContent = lastModified;
+}
 
-hamburger/addEventListener('click', () => {
+
+function toggleMenu() {
+    const navMenu = document.querySelector('nav ul');
     navMenu.classList.toggle('show');
-    hamburger.textContent = navMenu.classList.contains('show') ? 'X' : '☰';
-});
+}
 
-document.getElementById('lastModified').textContent = document.lastModified;
+document.querySelector('.hamburger').addEventListener('click', toggleMenu);
+
+displayCurrentYear();
+displayLasModifiedDate();
