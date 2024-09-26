@@ -1,0 +1,34 @@
+@media (min-width: 768px) {
+
+    /* Flex navigation*/
+    nav ul {
+        display: flex;
+        justify-content: center;
+    }
+
+    nav ul li {
+        margin: 0 15px;
+    }
+
+    .hamburger {
+        display: none;
+    }
+    
+    /* Center the Main Content*/
+    main {
+        max-width: 1200px;
+        margin: 20px auto;
+    }
+
+    /*Grid Layout for Images*/
+    section {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    }
+
+    /*Footer Styling*/
+    footer {
+        padding: 20px;
+    }
+}

@@ -10,12 +10,16 @@
     <link rel="stylesheet" href="styles/temples.css">
     <link rel="stylesheet" href="styles/temples-large.css">
     <script src="scripts/temple.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <header>
         <h1>Temple Album</h1>
         <nav>
+            <div class="hamburger">☰</div>
             <ul>
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Old</a></li>
@@ -27,18 +31,51 @@
     </header>
 
     <main>
-        <h2>Temple Pictures</h2>
+        <h2>Home</h2>
         <section>
-            <h2>Home</h2>
-
             <figure>
-                <img src="" alt="">
+                <img src="images/ber-switzerland.jpg" alt="ber-switzerland-temple">
+                <figcaption>Ber Switzerland Temple</figcaption>
             </figure>
+            <figure>
+                <img src="images/bountiful.jpg" alt="bountiful-temple">
+                <figcaption>Bountiful Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="images/columbus.jpg" alt="columbus-temple">
+                <figcaption>Columbus Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="images/draper.jpg" alt="draper-temple">
+                <figcaption>Draper Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="images/oquirrh.jpg" alt="oquirrh-temple">
+                <figcaption>Oquirrh Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="images/payson.jpg" alt="payson-temple">
+                <figcaption>Payson Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="images/phoenix-arizona.jpg" alt="phoenix-arizona-temple">
+                <figcaption>Phoenix Arizona Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="images/slctemple.jpg" alt="slc-temple">
+                <figcaption>Salt Lake City Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="images/washington_dc.jpg" alt="washington-dc-temple">
+                <figcaption>Washington D.C. Temple</figcaption>
+            </figure>
+
         </section>
     </main>
 
     <footer>
-
+        <p>&copy; <span id="currentYear"></span> Brayden Grant</p>
+        <p>Last updated: <span id="lastModified"></span></p>
     </footer>
 </body>
 
