@@ -14,6 +14,7 @@ function toggleMenu() {
     navMenu.classList.toggle('show');
 }
 
+
 document.querySelector('.hamburger').addEventListener('click', toggleMenu);
 
 displayCurrentYear();
