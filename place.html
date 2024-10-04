@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Utah Home</title>
+    <meta name="description" content="information about the place I live">
+    <meta name="author" content="Brayden Grant">
+    <link rel="stylesheet" href="styles/place.css">
+    <link rel="stylesheet" href="styles/large-place.css">
+    <script src="scripts/place.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>Italy</h1>
+    </header>
+
+    <main>
+        <section class="hero">
+            <picture>
+                <source srcset="images/large-hero.webp" media="(min-width: 800px)">
+                <img src="images/small-hero.webp" alt="Hero Imeage">
+            </picture>
+        </section>
+
+        <section class="data">
+            <h2>Data</h2>
+            <ul>
+                <li><strong>Area:</strong> 301,230 km2</li>
+                <li><strong>Population:</strong> 59.3 million (2024)</li>
+                <li><strong>Capital:</strong> Rome</li>
+                <li><strong>Languages:</strong> Italian</li>
+                <li><strong>Currency:</strong> euro</li>
+                <li><strong>Time Zone:</strong> UTC +2</li>
+                <li><strong>Calling Code:</strong> +39</li>
+                <li><strong>Internet TLD:</strong> .it</li>
+            </ul>
+        </section>
+
+        <section class="weather">
+            <h2>Weather</h2>
+            <ul>
+                <li><strong>Temperature:</strong> 5°C</li>
+                <li><strong>Wind Speed:</strong> 10 km/h</li>
+                <li><strong>Conditions:</strong> Partly Cloudy</li>
+                <li id="windChill"><strong>Wind Chill:</strong> N/A</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy;<span id="currentYear"></span> Brayden Grant</p>
+        <p>Last Updated: <span id="lastModified"></span></p>
+    </footer>
+</body>
+
+</html>

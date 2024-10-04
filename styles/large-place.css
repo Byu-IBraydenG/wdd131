@@ -1,0 +1,47 @@
+@media (min-width: 800px) {
+    .hero {
+        grid-template-columns: 1fr 2fr 1fr;
+        grid-template-areas: 
+            "data image weather";
+        align-items: center;
+        position: relative;
+    }
+
+    .data {
+        grid-area: data;
+        position: absolute;
+        top: 10rem;
+        left: 5rem;
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+        padding: 10px;
+        border-radius: 8px;
+        max-width: 200px;
+    }
+
+    .weather {
+        grid-area: weather;
+        position: absolute;
+        bottom: 1px;
+        right: 20px;
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+        padding: 10px;
+        border-radius: 8px;
+        max-width: 200px;
+    }
+
+    picture {
+        grid-area: image;
+        max-width: 100%;
+    }
+}
+
+footer {
+    text-align: center;
+    margin-top: 2rem;
+    padding: 1rem;
+    background-color: #333;
+    color: #fff;
+    font-size: 0.9rem;
+}
