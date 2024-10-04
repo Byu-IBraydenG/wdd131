@@ -31,6 +31,10 @@
         max-width: 200px;
     }
 
+    .weather-icon {
+        width: 80px;
+    }
+
     picture {
         grid-area: image;
         max-width: 100%;
@@ -41,7 +45,8 @@ footer {
     text-align: center;
     margin-top: 2rem;
     padding: 1rem;
-    background-color: #333;
-    color: #fff;
-    font-size: 0.9rem;
+    background-color: rgb(255, 0, 0);
+    color: var(--text-color);
+    font-size: large;
+    font-weight: 550;
 }
