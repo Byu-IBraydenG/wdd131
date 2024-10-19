@@ -1,0 +1,22 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1, h2 {
+    font-family: 'Lato', sans-serif;
+    color: #333;
+}
+
+section {
+    margin: 20px;
+    padding: 10px;
+    border-bottom: 2px solid #ccc;
+}
+
+#color-schema {
+    background-color: #007bff;
+}
+
+#typography {
+    font-style: none;
+}
