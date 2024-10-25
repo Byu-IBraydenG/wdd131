@@ -1,0 +1,33 @@
+@media (min-width: 768px) {
+
+    /* Flex navigation*/
+    nav ul {
+        display: flex;
+        justify-content: center;
+    }
+
+    nav ul li {
+        margin: 0 15px;
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+    .hamburger:hover {
+        transform: scale(1.1);
+    }
+    
+    /* Center the Main Content*/
+    main {
+        max-width: 1200px;
+        margin: 20px auto;
+    }
+
+    
+
+    /*Footer Styling*/
+    footer {
+        padding: 20px;
+    }
+}
