@@ -1,0 +1,112 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: #4c1255;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+}
+
+form {
+    background-color: #e0dce0;
+    padding: 20px;
+    border-radius: 8px;
+    width: 90%;
+    max-width: 500px;
+    box-shadow: 0 40px 8px rgba(0, 0, 0, 0.1);
+    flex-grow: 1;
+}
+
+label {
+    font-weight: bold;
+    margin-top: 10px;
+    display: block;
+    margin-bottom: 5px;
+    color: #4c1255;
+}
+
+input[type="text"],
+input[type="date"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+    background-color: #fafafa;
+}
+
+textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+div > label {
+    font-size: 1.5rem;
+    color: #999;
+    cursor: pointer;
+    padding: 0 5px;
+}
+
+div > input[type="radio"]:checked + label {
+    color: #f0b800;
+}
+
+div > input[type="radio"] + label:hover,
+div > input[type="radio"]:not(:checked) + label:hover {
+    color: #f0b800;
+}
+
+div input[tyoe="checkbox"] {
+    margin-right: 10px;
+}
+
+input[type="submit"] {
+    background-color: #4c1255;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 1.2rem;
+}
+
+input[type="submit"]:hover {
+    background-color: #732c7b;
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 0.8rem;
+    color: #333;
+}
+
+@media (max-width:600px) {
+    form {
+        width: 100%;
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    input[type="submmit"] {
+        font-size: 1em;
+    }
+}

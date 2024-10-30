@@ -6,7 +6,7 @@
     <title>Final Project</title>
     <meta name="description" content="outcome from the class">
     <meta name="author" content="Brayden Grant">
-    <link rel="stylesheet" href="styles/project.css">
+    <link rel="stylesheet" href="styles/home-page.css">
     <link rel="stylesheet" href="styles/large-project.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,28 +14,54 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
-    <script src="scripts/project.js" defer></script>
+    <script src="scripts/home-page.js" defer></script>
 </head>
 <body>
     <header>
         <h1>Favorite Temples</h1>
         <nav>
-            <div class="hamburger">☰</div>
-            <ul> <!--I had to make some changes for the hotbar-->
-                <li><a href="#" data-filter="all">Home</a></li>
-                <li><a href="#" data-filter="old">Old</a></li>
-                <li><a href="#" data-filter="new">New</a></li>
-                <li><a href="#" data-filter="large">Large</a></li>
-                <li><a href="#" data-filter="small">Small</a></li>
-                <li><a href="#" data-filter="utah">In Utah</a></li>
+            <ul>
+                <li><a href="old.html" data-filter="old">Old</a></li>
+                <li><a href="new.html" data-filter="new">New</a></li>
+                <li><a href="utah.html" data-filter="utah">In Utah</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <h2>Home</h2>
-        <section id="temple-list">
+        <section class="temple">
+            <img src="images/oquirrh.jpg" alt="oquirrh temple" class="full-width-image">
+            <h1>Welcome to the Temples Page</h1>
+        </section>
 
+        <section class="newsletter">
+            <div class="container">
+                <h2>Join Our Newsletter</h2>
+                <form action="review.html" method="get">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <button type="submit">Sign Up</button>
+                </form>
+            </div>
+        </section>
+        <section class="about">
+            <div class="container">
+                <h2>Signficance of Temple Worship</h2>
+                <div class="grid">
+                    <div class="grid-item">
+                        <img src="images/youth_bountiful_temple_lds.webp" alt="Walking toward Rightous">
+                        <h3>Unmatched Experience</h3>
+                        <p>Many people see the temple as the next step toward great prosperity. We rejoice knowing families can continue beyond death.</p>
+                    </div>
+                    <div class="grid-item">
+                        <img src="images/slctemple.jpg" alt="Safety first">
+                        <h3>Our Temples</h3>
+                        <p>We have many temples across the world, this website will only over a few of them but we hope you'll understand a bit more of these temples.</p>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
 
